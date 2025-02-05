@@ -11,7 +11,6 @@ export const Home = () => {
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
-  console.log("cat ,- ", categories);
   useEffect(() => {
     try {
       const fetchApi = async (search, categories) => {
